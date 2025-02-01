@@ -1,5 +1,4 @@
-from copy import deepcopy
-from itertools import combinations, permutations, product
+from itertools import product
 
 def getEquations(path):
     with open(path, 'r') as file:
